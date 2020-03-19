@@ -1,0 +1,112 @@
+.formSearch{
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding-left: 5px;
+}
+.formSearch:hover, .formSearch:active, .formSearch:focus, .formSearch:default {
+  border: none!important;
+  box-shadow: none !important;
+}
+.bid_lineleftHome{
+  display: inline-block;
+  padding-left: 15px;
+}
+.selectSearch{
+  border-radius: 5px;
+  color: #000;
+  width: 100%;
+  border: none;
+  padding-left: 5px;
+  height: 40px;
+}
+.gm-style-iw, .gm-style-iw-d{
+  max-width: none !important;
+  max-height: none !important;
+}
+.gm-style-iw-c{
+  padding: 15px !important;
+  border-radius: 0 !important;
+}
+.gm-style-iw-d{
+  overflow: hidden !important;
+}
+.inputRegistro{
+  width: 100%;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.selectBiometrico{
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #000;
+  padding-left: 5px;
+  height: 40px;
+}
+
+.modalContentAn{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.headerModal{
+  background-color: #ccc;
+  /* border-top-left-radius: 10px; */
+  /* border-top-right-radius: 10px; */
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+.contentModalAntro{
+  padding: 10px;
+}
+.tableListN td, .tableListN th{
+  padding: 5px;
+}
+
+.tblAsistencia{
+  padding: 0;
+}
+
+.tblAsistencia > table{
+  font-size: 11px !important;
+  width: 100%;
+}
+
+.tblAsistencia > table td, .tblAsistencia > table th{
+  padding: 0px;
+}
+
+/* .gm-style span{
+  display: none;
+} */
+/* .gm-style div{
+  background-color: transparent !important;
+} */
+/* #map > div:last-child{
+  display: none;
+} */
+
+/* .gm-style > div:first-child > div:first-child > div:first-child > div:first-child > div > div > div{
+  color: lime;
+} */
+
+/* ================================================== */
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.table th, .table td {
+    padding: 0.35rem !important;
+}

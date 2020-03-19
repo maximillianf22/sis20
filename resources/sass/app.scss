@@ -1,0 +1,27 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+#terminal {
+    height: 50vh;
+    overflow: auto;
+    background: #343a40;
+    color: white;
+    padding: 5px;
+}
+
+.comando:before {
+    content: '$ ';
+}
+
+.blink {
+    width: 5px;
+    height: 13px;
+    display: inline-block;
+    background-color: white;
+}
